@@ -6,6 +6,19 @@ header-img: "img/green.jpg"
 ---
 
 
+
+<!-- List of all categories -->
+<ul class="tags">
+  {% for category in site.categories %}
+    <li>
+      <a href="#{{ this_word}}" class="tag">{{{ category[0] | capitalize }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
+<hr />
+
 <!-- 分类列表集合 -->
 <div id="post-list">
     {% for category in site.categories %}
