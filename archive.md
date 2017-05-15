@@ -8,7 +8,7 @@ header-img: "img/orange.jpg"
 <div>
 {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
-  {% capture m %}{{post.date | date:"%M"}}{% endcapture %}
+  {% capture m %}{{post.date | date:"%B"}}{% endcapture %}
   {% if year != y %}
    {% assign year = y %}
    <h3 href="#{{ y }}"><a id="{{ y }}">{{ y }}</a></h3>
