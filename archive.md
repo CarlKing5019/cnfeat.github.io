@@ -11,7 +11,7 @@ header-img: "img/orange.jpg"
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if year != y %}
    {% assign year = y %}
-   <h3><a id="{{ this_word}}" href="#{{ this_word}}">{{ y }}</a></h3>
+   <h3><a id="{{ y }}" href="#{{ y }}">{{ y }}</a></h3>
   {% endif %}
 
     <div>
@@ -20,6 +20,7 @@ header-img: "img/orange.jpg"
         <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
       </span>
     </div>
+    <div style="clear: both;"></div>
 {% endfor %}
   </ul>
 </div>
