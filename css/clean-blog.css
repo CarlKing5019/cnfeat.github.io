@@ -686,3 +686,15 @@ a {
 /*  color: #2b79c3;*/
 color: #808080;
 }
+
+@media only screen and (min-width: 768px) {
+  .intro-header .post-heading h1 {
+    font-size: 45px;
+  }
+  .intro-header .post-heading .subheading {
+    font-size: 30px;
+  }
+  .intro-header .post-heading .meta {
+    font-size: 20px;
+  }
+}
