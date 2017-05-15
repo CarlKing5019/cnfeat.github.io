@@ -13,7 +13,9 @@ header-img: "img/Red-Brown.jpg"
 
 <!-- <ul class="listing"> -->
 {% for tag in site.tags %}
-  <h3 class="listing-seperator" id="{{ tag[0] }}">{{ tag[0] }}</h3>
+  <h3 class="listing-seperator" id="{{ tag[0] }}">
+    {{ tag[0] }}
+  </h3>
   <ul class="listing">
 {% for post in tag[1] %}
   <li class="listing-item">
