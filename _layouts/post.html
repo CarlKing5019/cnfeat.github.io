@@ -18,9 +18,9 @@ layout: default
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% endif %}
                     <span class="meta">Posted on {{ page.date | date: "%y-%d-%m" }}
-                    <span class="Tags pagetitle">
+                    <span class="Tags">
                         {% for tag in page.tags %}
-                        <a class="tag" href="/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
+                        <a class="tag intitle" href="/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
                         {% endfor %}
                     </span>
                     </span>
