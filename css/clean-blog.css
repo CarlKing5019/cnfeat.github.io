@@ -620,5 +620,7 @@ h3.subsection, h4.subsection {
 }
 
 span.item:before {
-  content:•;
+content: "•";
+margin-right: 10px;
+margin-left: 10px;
 }
