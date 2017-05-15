@@ -6,14 +6,11 @@ header-img: "img/orange.jpg"
 ---
 
 
-<!-- <ul class="listing"> -->
 {% assign year = 0 %}
 {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if year != y %}
-   {% if year != 0 %}
-    </ul>
-   {% endif %}
+   {% if year != 0 %}</ul>{% endif %}
    {% assign year = y %}
     <h3>{{ y }}</h3>
     <ul class="listing">
@@ -24,5 +21,3 @@ header-img: "img/orange.jpg"
   </li>
 {% endfor %}
   </ul>
-<!-- </ul> -->
-
