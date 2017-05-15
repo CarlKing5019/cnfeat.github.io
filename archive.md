@@ -15,7 +15,7 @@ header-img: "img/orange.jpg"
   {% endif %}
   {% if month != m %}
    {% assign month = m %}
-   <h4 href="#{{ m }}"><a id="{{ m }}">{{ m }}</a></h4>
+   <h4 href="#{{ m }}"><a id="{{ m }}, {{ y }}">{{ m }}</a></h4>
   {% endif %}
 
     <div>
