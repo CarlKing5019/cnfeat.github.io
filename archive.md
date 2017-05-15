@@ -19,7 +19,7 @@ header-img: "img/orange.jpg"
 {% endif %}
 <div>
   <span style="float: left;" class="item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }} style="margin-right=2px"</time>
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }} </time>
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
   </span>
 </div>
