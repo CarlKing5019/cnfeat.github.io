@@ -11,17 +11,19 @@ header-img: "img/Red-Brown.jpg"
 {% endfor %}
 </div>
 
-<ul class="listing">
+<!-- <ul class="listing"> -->
 {% for tag in site.tags %}
-  <li class="listing-seperator" id="{{ tag[0] }}">{{ tag[0] }}</li>
+  <h3 class="listing-seperator" id="{{ tag[0] }}">{{ tag[0] }}</h3>
+  <ul class="listing">
 {% for post in tag[1] %}
   <li class="listing-item">
   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
   <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
   </li>
 {% endfor %}
-{% endfor %}
 </ul>
+{% endfor %}
+
 
 <script src="/media/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script> 
 <script language="javascript">
