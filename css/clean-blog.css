@@ -624,3 +624,35 @@ content: "•";
 margin-right: 10px;
 margin-left: 10px;
 }
+
+.pagetitle .tag{
+font: 15px/1.5 'PT Sans', serif;
+background: transparent;
+border-radius: 3px 0 0 3px;
+color: #FFFFFF;
+display: inline-block;
+height: 26px;
+line-height: 26px;
+padding: 0 0 0 23px;
+position: relative;
+/* margin: 0 10px 10px 0; */
+text-decoration: none;
+-webkit-transition: color 0.2s;
+}
+
+.pagetitle .tag {
+background: #fff;
+border-radius: 10px;
+box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
+content: '';
+height: 6px;
+left: 10px;
+position: absolute;
+width: 6px;
+top: 10px;
+}
+
+.pagetitle .tag {
+border: none;
+content: '';
+}
