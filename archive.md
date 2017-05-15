@@ -18,7 +18,7 @@ header-img: "img/orange.jpg"
 <h4 class="subsection"><a id="{{ m }}-{{ y }}" href="#{{ m }}-{{ y }}" class="subsection">{{ m }}, {{y}}</a></h4>
 {% endif %}
 <div>
-  <span style="float: left;">
+  <span style="float: left;" class="item">
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
   </span>
