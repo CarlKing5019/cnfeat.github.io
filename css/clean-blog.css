@@ -665,3 +665,7 @@ content: '';
 .intro-header {
   height: 300px;
 }
+
+.site-heading>hr.small {
+  display: none;
+}
