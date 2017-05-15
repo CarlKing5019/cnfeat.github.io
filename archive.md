@@ -15,7 +15,7 @@ header-img: "img/orange.jpg"
     </ul>
    {% endif %}
    {% assign year = y %}
-    <h2 class="listing-seperator">{{ y }}</h2>
+    <h2>{{ y }}</h2>
     <ul class="listing-by-year">
   {% endif %}
   <li class="listing-item">
