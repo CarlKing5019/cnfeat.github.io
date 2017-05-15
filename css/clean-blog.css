@@ -618,3 +618,7 @@ h3.subsection a, h4.subsection a {
 h3.subsection, h4.subsection {
   margin-top: 20px;
 }
+
+span.item:before {
+  content:•;
+}
