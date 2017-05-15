@@ -6,12 +6,16 @@ header-img: "img/orange.jpg"
 ---
 
 <div>
-{% assign year = 0 %}
 {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
+  {% capture m %}{{post.date | date:"%M"}}{% endcapture %}
   {% if year != y %}
    {% assign year = y %}
    <h3 href="#{{ y }}"><a id="{{ y }}">{{ y }}</a></h3>
+  {% endif %}
+  {% if month != m %}
+   {% assign month = m %}
+   <h4 href="#{{ m }}"><a id="{{ m }}">{{ m }}</a></h4>
   {% endif %}
 
     <div>
