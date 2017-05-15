@@ -610,3 +610,11 @@ a.tag:focus {
 a.tag.subsection {
   margin-top: 20px;
 }
+
+a.subsection {
+  padding-left: 0;
+}
+
+.subsection {
+  margin-top: 20px;
+}
