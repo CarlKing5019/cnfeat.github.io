@@ -710,12 +710,12 @@ color: #808080;
 
 
 ::-moz-selection {
-  color: white;
+  color: black;
   text-shadow: none;
   background: #AFD5FB;
 }
 ::selection {
-  color: white;
+  color: black;
   text-shadow: none;
   background: #AFD5FB;
 }
