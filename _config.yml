@@ -31,6 +31,9 @@ highlighter: rouge
 permalink: pretty
 paginate: 15
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+kramdown:
+  input: GFM
+  hard_wrap: false
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: Asia/Shanghai 
