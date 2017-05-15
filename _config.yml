@@ -27,7 +27,7 @@ zhihu_username: CarlKing5019
 # use Github Flavored Markdown !important  
 # document: http://jekyllrb.com/docs/configuration/#kramdown  
 # markdown: kramdown
-markdown: maruku
+# markdown: maruku
 highlighter: rouge
 permalink: pretty
 paginate: 15
