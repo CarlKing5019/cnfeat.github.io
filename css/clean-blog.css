@@ -669,3 +669,7 @@ content: '';
 .site-heading>hr.small {
   display: none;
 }
+
+h1 {
+  margin-bottom: 10px;
+}
