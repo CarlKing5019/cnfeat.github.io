@@ -35,7 +35,8 @@ to the `site_tags` variable. -->
     {% capture this_word %}{{ tag_words[item] }}{% endcapture %}
 <a class="tag subsection" id="{{ this_word}}" href="#{{ this_word}}">{{ this_word }}</a>
     {% for post in site.tags[this_word] %}{% if post.title != null %}
-      <div>
+<!--
+       <div>
         <span style="float: left;">
           <a href="{{ post.url }}">{{ post.title }}</a>
         </span>
@@ -43,7 +44,13 @@ to the `site_tags` variable. -->
           {{ post.date | date_to_string }}
         </span>
       </div>
-      <div style="clear: both;"></div>
+-->
+<div>
+  <span style="float: left;" class="item">
+    <a href="{{ post.url }}" title="{{ post.title }}"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date:"%Y.%m.%d" }}</time> - {{ post.title }}</a>
+  </span>
+</div>
+<div style="clear: both;"></div>
     {% endif %}{% endfor %}
   {% endunless %}{% endfor %}
 </div>
