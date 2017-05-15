@@ -12,7 +12,9 @@ header-img: "img/orange.jpg"
   {% if year != y %}
    {% if year != 0 %}</ul>{% endif %}
    {% assign year = y %}
-    <h3>{{ y }}</h3>
+    <h3>
+      {{ y }}
+    </h3>
     <ul class="listing">
   {% endif %}
   <li class="listing-item">
