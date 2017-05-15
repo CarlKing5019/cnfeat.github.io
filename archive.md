@@ -19,9 +19,7 @@ header-img: "img/orange.jpg"
 {% endif %}
 <div>
   <span style="float: left;" class="item">
-    <a href="{{ post.url }}" title="{{ post.title }}">
-      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date:"%Y.%m.%d" }} </time> - {{ post.title }}
-    </a>
+    <a href="{{ post.url }}" title="{{ post.title }}"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date:"%Y.%m.%d" }}</time> - {{ post.title }}</a>
   </span>
 </div>
 <div style="clear: both;"></div>
