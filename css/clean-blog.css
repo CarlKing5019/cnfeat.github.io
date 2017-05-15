@@ -657,3 +657,11 @@ top: 10px;
 border: none;
 content: '';
 } 
+
+.intro-header .site-heading, .intro-header .post-heading, .intro-header .page-heading {
+  padding: 60px 0;
+}
+
+.intro-header {
+  height: 220px;
+}
