@@ -6,7 +6,7 @@ header-img: "img/orange.jpg"
 ---
 
 
-<ul class="listing">
+<!-- <ul class="listing"> -->
 {% assign year = 0 %}
 {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
@@ -15,7 +15,7 @@ header-img: "img/orange.jpg"
     </ul>
    {% endif %}
    {% assign year = y %}
-    <li class="listing-seperator">{{ y }}</li>
+    <h2 class="listing-seperator">{{ y }}</h2>
     <ul class="listing-by-year">
   {% endif %}
   <li class="listing-item">
@@ -23,5 +23,6 @@ header-img: "img/orange.jpg"
       <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
   </li>
 {% endfor %}
-  </ul>
-</ul>
+  </ul>
+<!-- </ul> -->
+
