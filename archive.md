@@ -16,6 +16,7 @@ header-img: "img/orange.jpg"
 {% if month != m %}
 {% assign month = m %}
 <h4 class="subsection"><a id="{{ m }}-{{ y }}" href="#{{ m }}-{{ y }}" class="subsection">{{ m }}, {{y}}</a></h4>
+<hr />
 {% endif %}
 <div>
   <span style="float: left;" class="item">
