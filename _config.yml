@@ -4,24 +4,24 @@ header-img: "img/Xacebook.jpg"
 tagline: "cn"  
 description: "陈素封|读而立·写而生"  
 baseurl: ""
-url: "http://www.cnfeat.com"  
+url: "https://carlking5019.github.io"  
 
 # About/contact
 owner: 
-  name: " CNFeat"
-  email: CnFeat@gmail.com
-  bio: "写就是写的报酬"
+  name: CarlKing5019"
+  email: CarlKing5019@gmail.com
+  bio: ""
 
 # Data
-gavatar: http://openmindclub.qiniudn.com/omt/GavatarCNFeat.png
+gavatar: 
 favicon: img/favicon.png
 
-douban_username:  cnfeat
-twitter_username: feat
-github_username: cnfeat
-facebook_username: 
-weibo_username: cnfeat 
-zhihu_username: feat
+douban_username: CarlKing5019
+twitter_username: CarlKing5019
+github_username: CarlKing5019
+facebook_username: CarlKing5019
+weibo_username: CarlKing5019 
+zhihu_username: CarlKing5019
 
 # Build settings  
 # use Github Flavored Markdown !important  
@@ -33,7 +33,7 @@ paginate: 15
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: Asia/Shanghai
+timezone: Asia/Shanghai 
 
 # Defaults for posts
 defaults:
@@ -42,19 +42,20 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "CNFeat"
+      author: "CarlKing5019"
       header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 
 comments :
   provider : disqus
   duoshuo :
-    short_name : cnfeat
+    short_name : CarlKing5019
   disqus :
-      short_name : cnfeat
+      short_name : CarlKing5019
 
 # Analytics and webmaster tools stuff goes here
-google_analytics: UA-80884545-1
+google_analytics: 
+# UA-80884545-1
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
