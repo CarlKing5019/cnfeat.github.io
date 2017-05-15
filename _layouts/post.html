@@ -13,16 +13,17 @@ layout: default
         <div class="row">
             <div class="col-lg-7 col-lg-offset-3 col-md-8 col-md-offset-2">
                 <div class="post-heading">
-                    <div class="Tags">
-                        {% for tag in page.tags %}
-                        <a class="tag" href="/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
-                        {% endfor %}
-                    </div>
                     <h1>{{ page.title }}</h1>
                     {% if page.subtitle %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% endif %}
-                    <span class="meta">Posted on {{ page.date | date: "%y-%d-%m" }}</span>
+                    <span class="meta">Posted on {{ page.date | date: "%y-%d-%m" }}
+                        <span class="Tags">
+                            {% for tag in page.tags %}
+                            <a class="tag intitle" href="/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
+                            {% endfor %}
+                        </span>
+                    </span>
                 </div>
             </div>
         </div>
