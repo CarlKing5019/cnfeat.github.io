@@ -2,7 +2,7 @@
 layout: page
 title: Categories
 description: "大千世界"
-header-img: "/img/green.jpg"
+header-img: "img/green.jpg"
 ---
 
 
