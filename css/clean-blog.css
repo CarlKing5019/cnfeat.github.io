@@ -603,6 +603,8 @@ body {
   border-left-color: #f05422;
 }
 
+/* Tags end */
+
 a.tag:focus {
   color: #FFFFFF;
 }
@@ -658,6 +660,17 @@ border: none;
 content: '';
 } 
 
+.site-heading>hr.small {
+  display: none;
+}
+
+h1 {
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+
+@media only screen and (min-width: 768px) {
 .intro-header .site-heading, .intro-header .post-heading, .intro-header .page-heading {
   padding: 120px 0;
 }
@@ -666,13 +679,6 @@ content: '';
   height: 340px;
 }
 
-.site-heading>hr.small {
-  display: none;
-}
-
-h1 {
-  margin-bottom: 10px;
-  margin-top: 0px;
 }
 
 @media only screen and (min-width: 768px) {
