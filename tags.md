@@ -33,10 +33,8 @@ to the `site_tags` variable. -->
 <div>
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
     {% capture this_word %}{{ tag_words[item] }}{% endcapture %}
-    <span style="float: left;">
-      <a class="tag" id="{{ this_word}}" href="#{{ this_word}}">{{ this_word }}</a>
-    </span>
-  {% for post in site.tags[this_word] %}{% if post.title != null %}
+    <a class="tag subsection" id="{{ this_word}}" href="#{{ this_word}}">{{ this_word }}</a>
+    {% for post in site.tags[this_word] %}{% if post.title != null %}
       <div>
         <span style="float: left;">
           <a href="{{ post.url }}">{{ post.title }}</a>
