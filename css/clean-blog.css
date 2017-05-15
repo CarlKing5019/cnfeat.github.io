@@ -675,8 +675,10 @@ h1 {
   margin-top: 0px;
 }
 
-.col-lg-offset-3 {
-  margin-left: 21%;
+@media only screen and (min-width: 768px) {
+  .col-lg-offset-3 {
+    margin-left: 21%;
+  }
 }
 
 a {
