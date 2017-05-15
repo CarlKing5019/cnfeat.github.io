@@ -10,8 +10,9 @@ header-img: "img/green.jpg"
 <!-- List of all categories -->
 <ul class="tags">
   {% for category in site.categories %}
+  {% assign cat = category[0] | capitalize  %}
     <li>
-      <a href="#{{ this_word}}" class="tag">{{ category[0] | capitalize }}
+      <a href="#{{ cat }}" class="tag">{{ cat }}
       </a>
     </li>
   {% endfor %}
@@ -22,7 +23,8 @@ header-img: "img/green.jpg"
 <!-- 分类列表集合 -->
 <div id="post-list">
     {% for category in site.categories %}
-        <h2 id="{{ category[0] }}">{{ category[0] | capitalize }}</h2>
+    {% assign cat = category[0] | capitalize  %}
+        <h2 id="{{ cat }}">{{ cat }}</h2>
         <!-- capitalize - 输出字符串，字符串（句子）首字母大写 e.g. 假设tb为"hello world"{{ tb|capitalize }} #=> 'Hello world' -160120 -->
         <ul class="post-list">
         {% assign pages_list = category[1] %}
