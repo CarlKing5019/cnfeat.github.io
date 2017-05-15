@@ -625,7 +625,7 @@ margin-right: 10px;
 margin-left: 10px;
 }
 
-
+/* 
 .tag.intitle{
 font: 15px/1.5 'PT Sans', serif;
 background: transparent;
@@ -656,4 +656,4 @@ top: 10px;
 .tag.intitle:after {
 border: none;
 content: '';
-}
+} */
