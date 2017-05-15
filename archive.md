@@ -11,10 +11,10 @@ header-img: "img/orange.jpg"
 {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if year != y %}
-   {% assign year = y %}
    {% if year != 0 %}
     </ul>
    {% endif %}
+   {% assign year = y %}
     <li class="listing-seperator">{{ y }}</li>
     <ul class="listing-by-year">
   {% endif %}
