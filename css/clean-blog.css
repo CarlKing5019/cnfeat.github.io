@@ -603,3 +603,6 @@ body {
   border-left-color: #f05422;
 }
 
+a.tag:focus {
+  color: #FFFFFF;
+}
