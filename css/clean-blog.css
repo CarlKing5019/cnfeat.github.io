@@ -673,3 +673,7 @@ content: '';
 h1 {
   margin-bottom: 10px;
 }
+
+.col-lg-offset-3 {
+  margin-left: 21%;
+}
