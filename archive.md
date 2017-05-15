@@ -5,7 +5,7 @@ description: "你看到的，是我练习千字文的所有文章"
 header-img: "img/orange.jpg"
 ---
 
-
+<div>
 {% assign year = 0 %}
 {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
@@ -23,4 +23,4 @@ header-img: "img/orange.jpg"
   </li>
 {% endfor %}
   </ul>
-  
+</div>
