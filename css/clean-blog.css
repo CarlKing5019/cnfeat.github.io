@@ -533,3 +533,7 @@ body {
   background-color: #ddd;
 }
 
+.post-content-preview:hover{
+  font-style: normal;
+  color: #a3a3a3;
+}
