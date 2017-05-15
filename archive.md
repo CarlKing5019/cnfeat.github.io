@@ -11,11 +11,11 @@ header-img: "img/orange.jpg"
   {% capture m %}{{post.date | date:"%B"}}{% endcapture %}
   {% if year != y %}
   {% assign year = y %}
-<h3 class="subsection" href="#{{ y }}"><a id="{{ y }}">{{ y }}</a></h3>
+<h3 class="subsection"><a id="{{ y }}" href="#{{ y }}">{{ y }}</a></h3>
   {% endif %}
   {% if month != m %}
   {% assign month = m %}
-<h4 class="subsection" href="#{{ m }}-{{ y }}"><a id="{{ m }}-{{ y }}">{{ m }}, {{y}}</a></h4>
+<h4 class="subsection"><a id="{{ m }}-{{ y }}" href="#{{ m }}-{{ y }}">{{ m }}, {{y}}</a></h4>
   {% endif %}
 
     <div>
