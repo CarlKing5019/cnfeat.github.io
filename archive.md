@@ -10,17 +10,26 @@ header-img: "img/orange.jpg"
 {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if year != y %}
-   {% if year != 0 %}</ul>{% endif %}
    {% assign year = y %}
-    <h3>
-      {{ y }}
-    </h3>
-    <ul class="listing">
+   <h3>{{ y }}</h3>
   {% endif %}
-  <li class="listing-item">
+  
+    <div>
+      <span style="float: left;">
+        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+      </span>
+      <span style="float: right;">
+        {{ post.date | date_to_string }}
+      </span>
+    </div>
+    <div style="clear: both;"></div>
+  
+<!--  <li class="listing-item">
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
       <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-  </li>
+  </li> -->
+  
 {% endfor %}
   </ul>
 </div>
