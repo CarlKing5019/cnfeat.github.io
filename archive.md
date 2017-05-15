@@ -15,8 +15,8 @@ header-img: "img/orange.jpg"
     </ul>
    {% endif %}
    {% assign year = y %}
-    ### {{ y }}
-    <ul class="listing-by-year">
+    <h3>{{ y }}</h3>
+    <ul class="listing">
   {% endif %}
   <li class="listing-item">
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
