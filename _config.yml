@@ -1,8 +1,8 @@
 # Site settings
-title: Cogito · ergo sum
+title: Wen-Fei Cao
 header-img: "img/facebook.jpg"
 tagline: "cn"  
-description: "Wen-Fei Cao|Cogito · ergo sum"  
+description: "Homepage of Wen-Fei Cao"  
 baseurl: ""
 url: "https://carlking5019.github.io"  
 
@@ -10,7 +10,7 @@ url: "https://carlking5019.github.io"
 owner: 
   name: CarlKing5019
   email: CarlKing5019@gmail.com
-  bio: ""
+  bio: "Cogito · ergo sum"
 
 # Data
 gavatar: 
