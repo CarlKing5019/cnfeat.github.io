@@ -20,28 +20,11 @@ permalink: 404.html
 </header>
 
 
+<!-- Div fill -->
 <div class="main"></div>
 
 
+<!-- Fixed footer -->
 <style>
-/*html{height:100%;}
-body{min-height:100%;}
-.main{padding-bottom:100px;}*/
-.fixed-bottom {position: fixed;bottom: 0;width:100%;}
+footer {position: fixed; bottom: 0; width:100%;}
 </style>
-
-<script>
-$(function(){
-    function footerPosition(){
-        $("footer").removeClass("fixed-bottom");
-        var contentHeight = document.body.scrollHeight,//网页正文全文高度
-            winHeight = window.innerHeight;//可视窗口高度，不包括浏览器顶部工具栏
-        if(!(contentHeight > winHeight)){
-            //当网页正文高度小于可视窗口高度时，为footer添加类fixed-bottom
-            $("footer").addClass("fixed-bottom");
-        }
-    }
-    footerPosition();
-    $(window).resize(footerPosition);
-});
-</script>
