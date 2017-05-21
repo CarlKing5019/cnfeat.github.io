@@ -1,7 +1,7 @@
 # Site settings
 title: Wen-Fei Cao
-header-img: "img/facebook.jpg"
-tagline: "cn"  
+header-img: "img/blue.jpg"
+tagline: "homepage"  
 description: "Homepage of Wen-Fei Cao"  
 baseurl: ""
 url: "https://carlking5019.github.io"  
@@ -13,7 +13,7 @@ owner:
   bio: "Cogito · ergo sum"
 
 # Data
-gavatar: 
+gavatar: img/gavatar.png
 favicon: img/favicon.png
 
 douban_username: CarlKing5019
@@ -46,21 +46,21 @@ defaults:
     values:
       layout: "post"
       author: "CarlKing5019"
-      header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
+      header-img: "img/green.jpg"
 
 # Comments 
-comments :
-  provider : disqus
-  duoshuo :
-    short_name : CarlKing5019
-  disqus :
-      short_name : CarlKing5019
+# comments :
+#   provider : disqus
+#   duoshuo :
+#     short_name : CarlKing5019
+#   disqus :
+#       short_name : CarlKing5019
 
 # Analytics and webmaster tools stuff goes here
-google_analytics: 
-# UA-80884545-1
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+# google_analytics: 
+# # UA-80884545-1
+# google_verify:
+# # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+# bing_verify:
 
 # Links to include in footer navigation
