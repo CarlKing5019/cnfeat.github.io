@@ -47,12 +47,14 @@ header-bg: green
 - 公众号：cnfeat
 
 
-<center>
+<!--<center>
     <p><img src="http://i173.photobucket.com/albums/w63/cnfeat/2015-08-29-2_zpsqj7po8eo.png" align="center"></p>
 </center>
-
-
+-->
+<!--
 ### ChangeLog
 
 
-- 2017-03-05 更新 最近在干嘛？
+- 2017-03-05 更新 最近在干嘛？-->
+
+### Test for updating.
