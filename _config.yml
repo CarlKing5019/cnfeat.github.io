@@ -1,6 +1,7 @@
 # Site settings
 title: Wen-Fei Cao
 header-img: "img/blue.jpg"
+header-bg: blue
 tagline: "homepage"  
 description: "Homepage of Wen-Fei Cao"  
 baseurl: ""
@@ -47,6 +48,29 @@ defaults:
       layout: "post"
       author: "CarlKing5019"
       header-img: "img/blue.jpg"
+      header-bg: blue
+
+
+### template colors, used site-wide via css ###
+colors:
+  blue:              "#395791"
+  dark-blue:         "#18556C"
+  facebook-blue:     "#395791"
+  trello-blue:       "#2F7BC0"
+  twitter-blue:      "#4AA6EB"
+  zhihu-blue:        "#1269C3"
+  black:             "#4B4C4D"
+  greeen:            "#F5F5F5"
+  sea-green:         "#23B5AD"
+  orange:            "#E18175"
+  red:               "#EB695A"
+  rose-red:          "#B25154"
+
+
+
+
+
+
 
 # Comments 
 # comments :
