@@ -26,15 +26,17 @@ zhihu_username: CarlKing5019
 
 # Build settings  
 # use Github Flavored Markdown !important  
-# document: http://jekyllrb.com/docs/configuration/#kramdown  
+# document: http://jekyllrb.com/docs/configuration/#kramdown 
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
 paginate: 15
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+include: ['_pages']
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","LICENSE"]
 kramdown:
   input: GFM
   hard_wrap: false
+  
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: Asia/Shanghai 
@@ -67,8 +69,12 @@ colors:
   rose-red:          "#B25154"
 
 
+# Fix for jekyll-paginate
+gems: [jekyll-paginate]
 
-
+# make urls succinct
+permalink: /blog/:categories/:title/
+paginate_path: /page/:num
 
 
 

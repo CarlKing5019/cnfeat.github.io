@@ -539,7 +539,7 @@ body {
 }
 
 
-/*Tags*/
+/* Tags start */
 .tags {
   list-style: none;
   margin: 0;
@@ -602,8 +602,8 @@ body {
 .tag:hover::after {
   border-left-color: #f05422;
 }
-
 /* Tags end */
+
 
 a.tag:focus {
   color: #FFFFFF;
@@ -671,21 +671,19 @@ h1 {
 
 
 @media only screen and (min-width: 768px) {
-.intro-header .site-heading, .intro-header .post-heading, .intro-header .page-heading {
-  padding: 120px 0;
+  .intro-header .site-heading, .intro-header .post-heading, .intro-header .page-heading {
+    padding: 120px 0;
+  }
+  .intro-header {
+    height: 340px;
+  }
 }
 
-.intro-header {
-  height: 340px;
-}
-
-}
-
-@media only screen and (min-width: 768px) {
+/*@media only screen and (min-width: 768px) {
   .col-lg-offset-3 {
     margin-left: 21%;
   }
-}
+}*/
 
 a {
   color: #808080;
@@ -695,6 +693,7 @@ a {
 /*  color: #2b79c3;*/
 color: #808080;
 }
+
 
 @media only screen and (min-width: 768px) {
   .intro-header .post-heading h1 {
@@ -714,6 +713,7 @@ color: #808080;
   text-shadow: none;
   background: #AFD5FB;
 }
+
 ::selection {
   /*color: black;*/
   text-shadow: none;
@@ -725,4 +725,8 @@ a:focus {
   color: #6bb4bf !important;
   text-decoration: none !important;
   background-color: #eee !important;
+}
+
+.intro-header {
+    background-color: #395791;
 }
